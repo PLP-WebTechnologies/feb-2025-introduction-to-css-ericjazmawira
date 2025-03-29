@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration</title>
+</head>
+<body style="background-color: aquamarine;">
+    <style>
+        h1{
+            text-decoration: underline;
+            text-align: center;
+         }
+         p{
+            color: tomato;
+            font-size: 50px;
+            font-style: italic;
+        }
+        img{
+            display: block;
+            border: 5px solid black;
+            border-radius: 5px;
+        }
+        a{
+
+        }
+    </style>
+    <h1>Register Here</h1>
+
+    <p>Welcome to my very fancy website</p>
+    <!-- Ordered List -->
+    <h2>List Items</h2>
+    <ol type="I">
+        <li>Helmet check</li>
+        <li>Gears check</li>
+        <li>Service check</li>
+        <li>Supplies check</li>
+        <li>Insurance check</li>
+    </ol>
+
+    <!-- External Image -->
+    <h2>External Image</h2>
+    <img src="https://tinyurl.com/459zp2n4" alt="Bike lover" />
+    <a class="google-link" href="https://www.google.com/" target="_blank">Visit Google</a>
+
+    <!-- Contact Table -->
+    <h2>Contact Table</h2>
+    <table border="1">
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>123 City CBD</td>
+            <td>0722123456</td>
+            <td>john@example.com</td>
+        </tr>
+        <tr>
+            <td>Jane Smith</td>
+            <td>456 West City</td>
+            <td>0712354678</td>
+            <td>jane@example.com</td>
+        </tr>
+        <tr>
+            <td>Mike Tyson</td>
+            <td>789 East City</td>
+            <td>0734575899</td>
+            <td>mike@example.com</td>
+        </tr>
+        <tr>
+            <td>Eric Mawira</td>
+            <td>300 North City</td>
+            <td>0734567895</td>
+            <td>eric@example.com</td>
+        </tr>
+        <tr>
+            <td>Dommie Lite</td>
+            <td>254 Lethal City</td>
+            <td>0734567829</td>
+            <td>dommie@example.com</td>
+        </tr>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+      
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+        
+       
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+        
+     
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+        
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+        
+        
+        <label for="role">Select Role:</label>
+        <select id="role" name="role" required>
+            <option value="">Choose one</option>
+            <option value="user">User</option>
+            <option value="admin">Admin</option>
+        </select><br><br>
+
+        <!-- Radio Buttons -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other" required>
+        <label for="other">Other</label><br><br>
+
+        
+        <label>Position:</label><br>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label>
+        <input type="checkbox" id="travel" name="interests" value="travel">
+        <label for="travel">Travel</label><br><br>
+        
+        <!-- Submit Button -->
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
+

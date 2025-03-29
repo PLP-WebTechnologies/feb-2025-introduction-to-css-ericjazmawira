@@ -16,14 +16,14 @@ Margins, paddings, and borders.
 
 >[!NOTE]
 >  - Include at least:
->  - Use of 3 selectors
+>  - Use of 3 seat least 3 difflectors
 >  - Style an image
 >  - Margin, Padding & Borders
 >  - Different font
 
 # Tasks
  - Link an external CSS file.
- - Apply at least 3 different selectors.
+ - Apply erent selectors.
  - Improve readability and aesthetics.
 
 Happy Coding! 💻✨
